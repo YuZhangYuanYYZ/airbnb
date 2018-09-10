@@ -11,16 +11,20 @@
    }
 
    .backgroundcommon {
-       width: 130px;
+       width: 140px;
        height: 110px;
-       
+       background-size: 100%;
+       background-repeat: no-repeat;
+       border-radius: 3px;
+       background-color: transparent;
    }
 
    .explore {
        display: block;
        width: 100%;
-       height: 100%;
+       height: 189.63px;
        box-sizing: border-box;
+       overflow:hidden;
    }
 
    .explorecommon {
@@ -29,12 +33,33 @@
        height: 140px;
        margin-right: 4px;
        margin-left: 24px;
-       float:left;
+       float: left;
+       box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px;
    }
 
    .indetify {
        padding-bottom: 5px;
        color: black;
+       font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+       font-size: 14px;
+       line-height: 1.43
+   }
+
+   .exploretitle {
+       font: 20px system-ui;
+       margin-left: 24px;
+   }
+   .airbnblogo{
+      background-color: transparent;
+       background-image: url("./introducing.jpg");
+       background-size: 100%;
+       background-repeat: no-repeat;
+       border-radius: 3px;
+       width:100%;
+       height:300px;
+   }
+   .introducing{
+       display:block;
    }
 
    @media only screen and (min-width:740px) {}
